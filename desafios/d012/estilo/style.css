@@ -29,6 +29,14 @@ h1{
     padding-top: 5vh;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 
 header{
     color: white; 
