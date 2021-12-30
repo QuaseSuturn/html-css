@@ -37,24 +37,34 @@ h1{
     font: normal normal 15vh var(--fonte2);
 }
 
+section {
+    height: 100vh;
+}
+
 section > p{
     font: normal normal 7vh var(--fonte3);
-    margin: 1em;
+    padding-left: 1vw;
+    padding-top: 2vh;
+    
 }
 
 section.prosa{
-    height: 1000px;
     background-color: white;
 }
 
-section#imagem1{
+section.double_prosa{
+    height: 200vh;
+    background-color: white;
+}
+
+section#P2{
     background-image: url('../imagens/background001.jpg');
     background-position: center right;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-section#imagem2{
+section#P4{
     background-image: url('../imagens/background002.jpg');
     background-position: center right;
     background-repeat: no-repeat;
@@ -64,10 +74,11 @@ section#imagem2{
 section.imagem > p{
     color: white;
     background-color: rgba(26, 26, 26, 0.116);
-    width: 12em;
+    width: 41vw;
 }
 
 footer{
     color: white;
     text-align: center;
+    padding: 10px;
 }
