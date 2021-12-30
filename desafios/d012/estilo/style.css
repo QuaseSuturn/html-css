@@ -20,6 +20,16 @@ body{
     background-color: black;
 }
 
+strong{
+    font-weight: bold;
+}
+
+h1{
+    font: normal normal 15vh var(--fonte2);
+    padding-top: 5vh;
+}
+
+
 header{
     color: white; 
     text-align: center;
@@ -27,25 +37,19 @@ header{
 
 header > p{
     font-family: var(--fonte1);
+    padding-bottom: 5vh
 }
 
-strong{
-    font-weight: bold;
-}
-
-h1{
-    font: normal normal 15vh var(--fonte2);
-}
 
 section {
+    padding-top: 10vh;
+    padding-left: 2vw;
     height: 100vh;
 }
 
 section > p{
-    font: normal normal 7vh var(--fonte3);
-    padding-left: 1vw;
-    padding-top: 2vh;
-    
+    font: normal normal 3.5em var(--fonte3);
+    padding-bottom: 1em;
 }
 
 section.prosa{
@@ -74,7 +78,7 @@ section#P4{
 section.imagem > p{
     color: white;
     background-color: rgba(26, 26, 26, 0.116);
-    width: 41vw;
+    width: 45vw;
 }
 
 footer{
